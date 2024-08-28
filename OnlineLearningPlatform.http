@@ -1,0 +1,46 @@
+# Base URL for the API
+@OnlineLearningPlatform_HostAddress = http://localhost:5077
+
+# Create a new course
+POST {{OnlineLearningPlatform_HostAddress}}/api/courses/create
+Content-Type: application/json
+
+{
+  "Title": "Introduction to C#",
+  "Description": "Learn the basics of C# programming.",
+  "InstructorId": 1
+}
+
+###
+
+# Get details of a course
+GET {{OnlineLearningPlatform_HostAddress}}/api/courses/1
+Accept: application/json
+
+###
+
+# List all courses
+GET {{OnlineLearningPlatform_HostAddress}}/api/courses
+Accept: application/json
+
+###
+
+# Enroll a student in a course
+POST {{OnlineLearningPlatform_HostAddress}}/api/students/enroll
+Content-Type: application/json
+
+{
+  "StudentId": 1,
+  "CourseId": 1
+}
+
+###
+
+# Mark a lesson as complete
+POST {{OnlineLearningPlatform_HostAddress}}/api/lessons/complete
+Content-Type: application/json
+
+{
+  "LessonId": 1,
+  "StudentId": 1
+}

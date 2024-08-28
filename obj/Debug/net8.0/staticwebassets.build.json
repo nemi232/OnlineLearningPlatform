@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "/gn4E71Zq79iB+PRaDDZn/1rwKD/BOz1Oa2eeFETRn4=",
+  "Source": "OnlineLearningPlatform",
+  "BasePath": "_content/OnlineLearningPlatform",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "OnlineLearningPlatform/wwwroot",
+      "Source": "OnlineLearningPlatform",
+      "ContentRoot": "/Users/majakozlowska/OnlineLearningPlatform/wwwroot/",
+      "BasePath": "_content/OnlineLearningPlatform",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
