@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace OnlineLearningPlatform.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("/")]
 public class HomeController : ControllerBase
 {
     [HttpGet]

@@ -1,5 +1,5 @@
 # Base URL for the API
-@OnlineLearningPlatform_HostAddress = http://localhost:5077
+@OnlineLearningPlatform_HostAddress = http://localhost:5001
 
 # Create a new course
 POST {{OnlineLearningPlatform_HostAddress}}/api/courses/create

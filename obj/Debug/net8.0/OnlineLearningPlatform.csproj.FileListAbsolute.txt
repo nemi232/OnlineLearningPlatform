@@ -140,3 +140,4 @@
 /Users/majakozlowska/OnlineLearningPlatform/obj/Debug/net8.0/OnlineLearningPlatform.genruntimeconfig.cache
 /Users/majakozlowska/OnlineLearningPlatform/obj/Debug/net8.0/ref/OnlineLearningPlatform.dll
 /Users/majakozlowska/OnlineLearningPlatform/bin/Debug/net8.0/OnlineLearningPlatform.staticwebassets.runtime.json
+/Users/majakozlowska/OnlineLearningPlatform/obj/Debug/net8.0/OnlineLearningPlatform.sourcelink.json
